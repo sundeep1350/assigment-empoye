@@ -1,0 +1,24 @@
+class Empolye:
+    def __init__(self,name,pay,desig,email):
+        self.name=name
+        self.pay=pay
+        self.designation=desig
+        self.email=email
+emp_2=Empolye('M.waleed',50000,'civil_eng','M.waleed@gmail.com')
+emp_1=Empolye('sundeep',25000,'IOT devl','sundeep@gmail.com')
+emp_3=Empolye('vikash',75000,'soft_eng','vikash@gmail.com')
+print('\n1st employe data')
+print(emp_1.name)
+print(emp_1.pay)
+print(emp_1.designation)
+print(emp_1.email)
+print('\n2nd  employe data')
+print(emp_2.name)
+print(emp_2.pay)
+print(emp_2.designation)
+print(emp_2.email)
+print(emp_3.name)
+print('\n3rd employe data')
+print(emp_3.pay)
+print(emp_3.designation)
+print(emp_3.email)
